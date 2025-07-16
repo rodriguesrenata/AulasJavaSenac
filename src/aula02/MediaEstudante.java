@@ -8,8 +8,8 @@ public class MediaEstudante {
         //Curso Senac Java (notas de 0 a 10, presisa de 7 para passar)
 
         Scanner sc = new Scanner(System.in);
-        String nomeAluno = sc.nextLine();
         System.out.print("Digite o nome da(o) aluna(o): ");
+        String nomeAluno = sc.nextLine();
 
         double nota1 = sc.nextDouble();
         System.out.println("Semestre 1 " +nomeAluno+ " "+nota1);
