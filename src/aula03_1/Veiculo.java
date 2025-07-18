@@ -8,10 +8,10 @@ public class Veiculo {
 
 //Metodo de classes Veículo
   void ligar() {
-   System.out.println("O carro " + modelo + " está ligado.");
+   System.out.println("Veículo " + modelo + " está ligado.");
   }
     void desligar() {
-      System.out.println("O carro " + modelo + " foi desligado.");
+      System.out.println("Veículo " + modelo + " foi desligado.");
 }
 
     void exibirInformacoes() {

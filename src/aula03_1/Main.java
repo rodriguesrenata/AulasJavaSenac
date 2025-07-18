@@ -8,8 +8,20 @@ public class Main {
         meuCarro.modelo = "Civic";
         meuCarro.ano = 2022;
 
-        meuCarro.ligar();
-        meuCarro.desligar();
         meuCarro.exibirInformacoes();
+        meuCarro.ligar();
+        meuCarro.darRe();
+        meuCarro.desligar();
+
+
+        Moto minhaMoto = new Moto();
+        minhaMoto.modelo = "Nmax";
+        minhaMoto.cor = "Cinza e Preta";
+        minhaMoto.ano = 2019;
+
+        minhaMoto.exibirInformacoes();
+        minhaMoto.ligar();
+        minhaMoto.empinar();
+        minhaMoto.desligar();
     }
 }
